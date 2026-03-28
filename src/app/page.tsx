@@ -491,6 +491,12 @@ export default function Home() {
               <p className="hidden sm:block">&copy; {new Date().getFullYear()}</p>
             </div>
           </div>
+          <p className="mt-4 text-center text-xs text-stone-400">
+            Created with care by{" "}
+            <a href="https://webagent.build" target="_blank" rel="noopener noreferrer" className="underline underline-offset-2 hover:text-stone-600 transition-colors">
+              Webagent
+            </a>
+          </p>
         </div>
       </footer>
     </>
