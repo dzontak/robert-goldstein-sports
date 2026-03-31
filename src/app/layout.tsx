@@ -16,6 +16,10 @@ export const metadata: Metadata = {
   title: "Robert Goldstein — Sports Community Leader | Huntington Lakes",
   description:
     "Celebrating over 10 years of volunteer coaching in pickleball, paddle tennis, and tennis at Huntington Lakes of Delray Beach.",
+  icons: {
+    icon: "/favicon.ico",
+    apple: "/apple-touch-icon.png",
+  },
   openGraph: {
     title: "Robert Goldstein — Sports Community Leader",
     description:
