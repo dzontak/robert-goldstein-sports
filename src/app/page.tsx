@@ -52,13 +52,13 @@ export default function Home() {
 
         <div className="relative mx-auto max-w-6xl px-6 py-28 text-center sm:py-36">
           {/* Logo / Avatar */}
-          <div className="mx-auto mb-8 h-28 w-28 overflow-hidden rounded-full ring-4 ring-amber-400 ring-offset-4 ring-offset-emerald-800 shadow-2xl">
+          <div className="mx-auto mb-8 h-40 w-40 overflow-hidden rounded-full ring-4 ring-amber-400 ring-offset-4 ring-offset-emerald-800 shadow-2xl">
             <Image
               src="/robert-logo.png"
               alt="Robert Goldstein"
-              width={112}
-              height={112}
-              className="h-full w-full object-cover"
+              width={160}
+              height={160}
+              className="h-full w-full object-contain"
               priority
             />
           </div>
